@@ -1,0 +1,12 @@
+# Main dependencies for Face Attendance System
+opencv-python
+face-recognition
+numpy
+Pillow
+PySide6
+# Optional: Needed to build dlib from source (face-recognition dependency)
+cmake  # Only needed if dlib wheel is not available
+
+# Note:
+# - Python 3.8–3.11 recommended for best compatibility with face-recognition and dlib.
+# - On Windows, you may need to install CMake and Visual Studio Build Tools if using Python 3.12+ or if a dlib wheel is not available. 
